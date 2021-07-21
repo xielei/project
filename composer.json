@@ -1,0 +1,8 @@
+{
+    "name": "xielei/project",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "xielei/swoole-worker": "1.*"
+    }
+}
