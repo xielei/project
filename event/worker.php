@@ -2,11 +2,22 @@
 
 declare(strict_types=1);
 
-use Xielei\Swoole\Api;
 use Xielei\Swoole\Helper\WorkerEvent as HelperWorkerEvent;
 
 class WorkerEvent extends HelperWorkerEvent
 {
+    public function onWorkerStart()
+    {
+    }
+
+    public function onWorkerExit()
+    {
+    }
+
+    public function onWorkerStop()
+    {
+    }
+
     public function onConnect(string $client, array $session)
     {
     }
