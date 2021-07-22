@@ -1,6 +1,6 @@
 # SwooleWorker脚手架
 
-这是一个SwooleWorker脚手架
+这是一个[【SwooleWorker】](https://swoole.plus)脚手架
 
 ## 安装
 
