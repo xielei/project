@@ -3,6 +3,6 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "xielei/swoole-worker": "1.*"
+        "xielei/swoole-worker": "^1.0"
     }
 }
