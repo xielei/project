@@ -35,7 +35,7 @@ the service is running with daemonize
 窗口1：
 
 ``` bash
-[root@VM-0-17-centos k.php94.com]# telnet 127.0.0.1 8000
+[root@VM-0-17-centos project]# telnet 127.0.0.1 8000
 Trying 127.0.0.1...
 Connected to 127.0.0.1.
 Escape character is '^]'.
@@ -51,7 +51,7 @@ Escape character is '^]'.
 窗口2
 
 ``` bash
-[root@VM-0-17-centos k.php94.com]# telnet 127.0.0.1 8000
+[root@VM-0-17-centos project]# telnet 127.0.0.1 8000
 Trying 127.0.0.1...
 Connected to 127.0.0.1.
 Escape character is '^]'.
@@ -65,5 +65,5 @@ Escape character is '^]'.
 
 telnet> quit
 Connection closed.
-[root@VM-0-17-centos k.php94.com]# 
+[root@VM-0-17-centos project]# 
 ```
