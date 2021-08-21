@@ -11,6 +11,9 @@ $worker = new Worker();
 // 设置配置文件
 $worker->config_file = __DIR__ . '/config.php';
 
+// 服务标签(供gateway自定义路由选择参考)
+$worker->tag_list = [];
+
 // 设置服务端参数 参考:http://wiki.swoole.com/#/server/setting
 $worker->set([
     'log_file' => __DIR__ . '/log/worker.log',
