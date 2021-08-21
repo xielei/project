@@ -21,11 +21,11 @@ composer install
 ## 启动
 
 ``` bash
-[root@VM-0-17-centos project]# php register.php start -d
+[root@VM-0-17-centos project]# php app/register/start.php start -d
 the service is running with daemonize
-[root@VM-0-17-centos project]# php worker.php start -d
+[root@VM-0-17-centos project]# php app/worker/start.php start -d
 the service is running with daemonize
-[root@VM-0-17-centos project]# php gateway.php start -d
+[root@VM-0-17-centos project]# php app/gateway/start.php start -d
 the service is running with daemonize
 [root@VM-0-17-centos project]# 
 ```
