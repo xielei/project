@@ -1,5 +1,6 @@
 {
     "name": "xielei/project",
+    "description": "SwooleWorker脚手架，快速搭建开发结构~",
     "license": "MIT",
     "type": "project",
     "require": {
